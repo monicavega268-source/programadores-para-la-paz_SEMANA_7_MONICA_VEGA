@@ -1,0 +1,25 @@
+POST http://localhost:3000/reportes
+content-TYpe: application/json
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+
+### reporte
+
+GET http://localhost:3000/reportes
+
+
+
+### EJEMPLO 2
+POST http://localhost:3000/reportes
+content-TYpe: application/json
+
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
+
+ALLÍ NOS SALE LA INFROMACION DE HR Y IEMPO QUE SE REALIZO Y REPORTAR INSIDENCIAS 
